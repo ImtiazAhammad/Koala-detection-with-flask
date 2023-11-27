@@ -1,3 +1,8 @@
+                                                    				OBJECT DETECTION (KOALA)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 I worked on Koala detection project, successfully build an object detection model that can detect koalas in any picture with the help of object detection. The model was able to achieve high accuracy in detecting koalas in the test images, and the API was able to provide accurate predictions for various test images.
 
 Below is my observation:
