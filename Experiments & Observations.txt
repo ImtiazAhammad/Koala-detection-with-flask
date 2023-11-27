@@ -1,0 +1,19 @@
+I worked on Koala detection project, successfully build an object detection model that can detect koalas in any picture with the help of object detection. The model was able to achieve high accuracy in detecting koalas in the test images, and the API was able to provide accurate predictions for various test images.
+
+Below is my observation:
+
+1. I had 186 Koala images and split them into training, testing, and validation sets. Got rid of some images during cleaning.
+
+2. Used Make Scanse.ai to label the images because the first tool gave me trouble.
+
+3. Picked YOLOv8 as the model, using pretrained weights for a head start.
+
+4. Trained it for 250 epochs with a batch size of 8, and it turned out to be a solid performer.
+
+5. The YOLOv8 model did well, with mAP scores like mAP50-95: 0.67297, mAP50: 0.9746, and mAP75: 0.7724, proving it's good at spotting Koalas.
+
+6. Faced a few challenges with unresponsive tools and tricky Google Drive downloads. Solved them with some creative solutions using prefixes and basic Python logic.
+
+7. From the experiment, it's clear that YOLOv8 is effective for detecting Koalas. For the future, I'd try some parameters for even better results.
+
+In summary, I've got a strong Koala detection model, and there's potential for more improvement.
