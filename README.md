@@ -5,6 +5,7 @@
 -  Check out the Notebook where the Yolov8 model training validation part is done.
 - After training All the Evaluation metrics can be found in "/runs/detect/val/results.png
 - After running the cells in the Inference section the predicted image will be stored in /runs/detect/predict" folder
+- 
 
 
 # Koala Detection with YOLOv8
